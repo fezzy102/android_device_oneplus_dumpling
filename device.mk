@@ -23,6 +23,7 @@
 #
 
 $(call inherit-product, vendor/oneplus/dumpling/dumpling-vendor.mk)
+$(call inherit-product, vendor/aquarios/config/utils.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
